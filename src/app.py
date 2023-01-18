@@ -1,10 +1,11 @@
+import json
 import logging
-from flask import Flask, request, Response
 import os
 import time
-from hubmap_commons.hm_auth import AuthHelper
+
 import requests
-import json
+from flask import Flask, request, Response
+from hubmap_commons.hm_auth import AuthHelper
 
 logging.basicConfig(format='[%(asctime)s] %(levelname)s in %(module)s: %(message)s', level=logging.DEBUG,
                     datefmt='%Y-%m-%d %H:%M:%S')
@@ -70,6 +71,10 @@ def home():
     return "This is SenNet file-assets-auth :)"
 
 
+def respond_with_http_status_code(status):
+    return Response(status=status)
+
+
 @app.route('/auth', methods=['GET'])
 def auth():
     print('AUTH STARTING')
@@ -79,33 +84,10 @@ def auth():
     headers = request.headers
     x_original_uri_ = headers['X-Original-Uri']
     path = x_original_uri_.strip('/')
-    ok_response = {
-        "statusCode": 200,
-        "headers": {
-            "Content-Type": "application/json"
-        }
-    }
-    unauthenticated_response = {
-        "statusCode": 401,
-        "headers": {
-            "Content-Type": "application/json"
-        }
-    }
-    unauthorized_response = {
-        "statusCode": 403,
-        "headers": {
-            "Content-Type": "application/json"
-        }
-    }
 
     # Handle requests to /
     if len(path) == 0:
-        return {
-            "statusCode": 200,
-            "headers": {
-                "Content-Type": "application/json"
-            }
-        }
+        return respond_with_http_status_code(200)
     path_list = path.split('?')
     token = None
 
@@ -139,24 +121,23 @@ def auth():
     if data_access_level == 'consortium':
         if token is None:
             print('Requested access to a consortium level dataset but no token was present')
-            return unauthenticated_response
+            return respond_with_http_status_code(401)
         print('HAS READ PRIVS RESPONSE')
         response = auth_helper_instance.has_read_privs(token)
         if isinstance(response, Response):
             print('Invalid token. It could be expired.')
-            return unauthenticated_response
+            return respond_with_http_status_code(401)
         if response:
             print('Token has read or write privs')
-            return ok_response
+            return respond_with_http_status_code(200)
         else:
             print('Token does not have read or write privs')
-            return unauthorized_response
+            return respond_with_http_status_code(403)
     elif data_access_level == 'protected':
         print('Files from protected datasets are not available')
-        return unauthorized_response
+        return respond_with_http_status_code(403)
     else:
-        return ok_response
-    # return 'auth'
+        return respond_with_http_status_code(200)
 
 
 def make_api_request_get(target_url):
