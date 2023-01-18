@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  
+  file-assets-auth:
+    build:
+      context: .
+    image: file-assets-auth
+    hostname: file-assets-auth
+    container_name: file-assets-auth
+    init: true
+    restart: always
+    environment:
+      - HOST_GID=${HOST_GID:-1001}
+      - HOST_UID=${HOST_UID:-1001}
+    ports:
+      - "8080:8080"
+#      - "443:4430"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - sennet_docker_network
+    volumes:
+      - "./log:/usr/src/app/log"
+      - "./src/instance:/usr/src/app/src/instance"
+      - "./nginx/conf.d:/etc/nginx/conf.d"
+      - "./src:/usr/src/app/src"
+networks:
+  # This is the network created by gateway to enable communication between multiple docker-compose projects
+  sennet_docker_network:
+    external: true
