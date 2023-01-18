@@ -1,0 +1,1357 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 16:50:53 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5615ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5615ec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 16:59:44 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x3097bec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x3097bec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+[pid: 36|app: 0|req: 1/1] 172.21.0.1 () {58 vars in 1127 bytes} [Wed Jan 18 16:59:50 2023] GET / => generated 34 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 2/2] 172.21.0.1 () {54 vars in 1022 bytes} [Wed Jan 18 16:59:50 2023] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:01:14 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x211b6ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x211b6ec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+[pid: 36|app: 0|req: 1/1] 172.21.0.1 () {56 vars in 1098 bytes} [Wed Jan 18 17:01:43 2023] GET /auth => generated 4 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 1/2] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:02:44 2023] GET / => generated 34 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 2/3] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:04:14 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 3/4] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:05:44 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:05:54 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8cfdec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8cfdec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+[2023-01-18 17:06:44] INFO in app: AUTH STARTING
+[pid: 35|app: 0|req: 1/1] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:06:44 2023] GET /auth => generated 4 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 2/2] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:07:24 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:08:13 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x163a3ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x163a3ec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+[2023-01-18 17:08:17] INFO in app: AUTH STARTING
+[pid: 35|app: 0|req: 1/1] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:08:17 2023] GET /auth => generated 4 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:08:53 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf985ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf985ec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+[pid: 36|app: 0|req: 1/1] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:10:23 2023] GET / => generated 34 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 2/2] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:11:53 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 3/3] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:13:23 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 1/4] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:14:53 2023] GET / => generated 34 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 4/5] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:16:23 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 2/6] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:17:53 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 3/7] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:19:23 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 5/8] 172.21.0.1 () {68 vars in 1321 bytes} [Wed Jan 18 17:20:45 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 6/9] 172.21.0.1 () {64 vars in 1206 bytes} [Wed Jan 18 17:20:45 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 7/10] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:20:54 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 4/11] 172.21.0.1 () {72 vars in 1411 bytes} [Wed Jan 18 17:21:53 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 5/12] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:22:06 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 6/13] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:22:06 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 8/14] 172.21.0.1 () {64 vars in 1189 bytes} [Wed Jan 18 17:22:14 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 7/15] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:22:24 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 8/16] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:23:36 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 9/17] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:23:36 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 10/18] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:23:54 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 11/19] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:25:06 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 12/20] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:25:06 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 9/21] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:25:24 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:25:55 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x170bdec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 22, in <module>
+    GLOBUS_APP_CLIENT_ID = os.environ['GLOBUS_APP_CLIENT_ID']
+  File "/usr/lib64/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'GLOBUS_APP_CLIENT_ID'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/1] 172.21.0.1 () {72 vars in 1411 bytes} [Wed Jan 18 17:26:06 2023] GET / => generated 21 bytes in 4 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/2] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:26:36 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:26:42 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x355eaec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 22, in <module>
+    GLOBUS_APP_CLIENT_ID = os.environ['GLOBUS_APP_CLIENT_ID']
+  File "/usr/lib64/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'GLOBUS_APP_CLIENT_ID'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/1] 172.21.0.1 () {68 vars in 1321 bytes} [Wed Jan 18 17:27:31 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/2] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:28:06 2023] GET / => generated 21 bytes in 3 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/3] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:28:12 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/4] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:29:36 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/5] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:29:42 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/6] 172.21.0.1 () {68 vars in 1321 bytes} [Wed Jan 18 17:29:53 2023] GET / => generated 21 bytes in 3 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/7] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:30:08 2023] GET /auth => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:31:08 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x224e8ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 22, in <module>
+    GLOBUS_APP_CLIENT_ID = os.environ['GLOBUS_APP_CLIENT_ID']
+  File "/usr/lib64/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'GLOBUS_APP_CLIENT_ID'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35)
+spawned uWSGI worker 1 (pid: 37, cores: 1)
+spawned uWSGI worker 2 (pid: 38, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/1] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:31:18 2023] GET /auth => generated 21 bytes in 10 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/2] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:32:37 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/3] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:32:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 37|app: -1|req: -1/4] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:34:08 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/5] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:34:08 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 37|app: -1|req: -1/6] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:35:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 37|app: -1|req: -1/7] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:35:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 37|app: -1|req: -1/8] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:37:08 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/9] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:37:08 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/10] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:38:15 2023] GET /auth => generated 21 bytes in 15 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/11] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:38:38 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 38|app: -1|req: -1/12] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:38:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:38:59 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12d36ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 14, in <module>
+    logFH = logging.FileHandler(LOG_FILE_NAME)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-17-38-59.log'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/1] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:39:10 2023] GET /auth => generated 21 bytes in 3 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/2] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:39:30 2023] GET /auth => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/3] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:40:08 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/4] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:40:29 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/5] 172.21.0.1 () {54 vars in 989 bytes} [Wed Jan 18 17:40:31 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/6] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:41:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/7] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:41:59 2023] GET / => generated 21 bytes in 3 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/8] 172.21.0.1 () {54 vars in 997 bytes} [Wed Jan 18 17:42:31 2023] GET /auth => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/9] 172.21.0.1 () {54 vars in 997 bytes} [Wed Jan 18 17:42:40 2023] GET /auth => generated 21 bytes in 7 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/10] 172.21.0.1 () {52 vars in 925 bytes} [Wed Jan 18 17:42:40 2023] GET /favicon.ico => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/11] 172.21.0.1 () {52 vars in 925 bytes} [Wed Jan 18 17:43:01 2023] GET /favicon.ico => generated 21 bytes in 8 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/12] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:43:08 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/13] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:43:29 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:44:19 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9a5cec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 14, in <module>
+    logFH = logging.FileHandler(LOG_FILE_NAME)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-17-44-20.log'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/1] 172.21.0.1 () {56 vars in 1028 bytes} [Wed Jan 18 17:44:24 2023] GET /auth => generated 21 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/2] 172.21.0.1 () {52 vars in 925 bytes} [Wed Jan 18 17:44:24 2023] GET /favicon.ico => generated 21 bytes in 3 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/3] 172.21.0.1 () {54 vars in 989 bytes} [Wed Jan 18 17:44:27 2023] GET / => generated 21 bytes in 7 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/4] 172.21.0.1 () {52 vars in 921 bytes} [Wed Jan 18 17:44:27 2023] GET /favicon.ico => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/5] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:44:38 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/6] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:45:49 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/7] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:46:09 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/8] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:47:20 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/9] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:47:39 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/10] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:48:50 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/11] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:49:09 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/12] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:50:20 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 36|app: -1|req: -1/13] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:50:39 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:50:45 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2d9e7ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 14, in <module>
+    logFH = logging.FileHandler(LOG_FILE_NAME)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-17-50-45.log'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/1] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:52:09 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/2] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:52:15 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:53:31 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x35b00ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Initialized AuthHelper class successfully :)
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 56, in <module>
+    @app.before.first_request()
+AttributeError: 'Flask' object has no attribute 'before'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/1] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:53:39 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:53:57 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20319ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Initialized AuthHelper class successfully :)
+Traceback (most recent call last):
+  File "/usr/src/app/src/./wsgi.py", line 1, in <module>
+    from app import app as application
+  File "/usr/src/app/src/./app.py", line 56, in <module>
+    @app.before_first_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+TypeError: before_first_request() missing 1 required positional argument: 'f'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 17:54:19 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x6a25ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Initialized AuthHelper class successfully :)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x6a25ec0 pid: 33 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 1)
+spawned uWSGI worker 2 (pid: 36, cores: 1)
+Error opening log file during startup
+[Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-17-54-19.log'
+AUTH STARTING
+HEADERS
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.1.1528333191.1668795217; _ga_QFB51N8FGS=GS1.1.1672862019.56.0.1672862019.0.0.0
+
+
+[pid: 36|app: 0|req: 1/1] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 17:54:36 2023] GET /auth => generated 4 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+Error opening log file during startup
+[Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-17-54-19.log'
+[pid: 35|app: 0|req: 1/2] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:55:09 2023] GET / => generated 34 bytes in 8 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 2/3] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:55:09 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 3/4] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:55:49 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 2/5] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:56:39 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 3/6] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:56:39 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 4/7] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:57:19 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 4/8] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:58:09 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 5/9] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:58:09 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 5/10] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 17:58:49 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 6/11] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:59:40 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 7/12] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 17:59:40 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 6/13] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:00:19 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.1.1528333191.1668795217; _ga_QFB51N8FGS=GS1.1.1672862019.56.0.1672862019.0.0.0
+
+
+[pid: 35|app: 0|req: 7/14] 172.21.0.1 () {58 vars in 1129 bytes} [Wed Jan 18 18:00:27 2023] GET /auth => generated 4 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 8/15] 172.21.0.1 () {68 vars in 1321 bytes} [Wed Jan 18 18:00:58 2023] GET / => generated 34 bytes in 2 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 8/16] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 18:01:10 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 9/17] 172.21.0.1 () {44 vars in 528 bytes} [Wed Jan 18 18:01:10 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /02a93db2ef7fd8acfc3f66eb70fd037a/genome_build.json
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 172.21.0.1
+X-Forwarded-For: 172.21.0.1
+Connection: close
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.1.1528333191.1668795217; _ga_QFB51N8FGS=GS1.1.1672862019.56.0.1672862019.0.0.0
+If-None-Match: "63c1ba49-6a"
+If-Modified-Since: Fri, 13 Jan 2023 20:08:41 GMT
+
+
+[pid: 36|app: 0|req: 10/18] 172.21.0.1 () {72 vars in 1419 bytes} [Wed Jan 18 18:01:47 2023] GET /auth => generated 4 bytes in 12 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 9/19] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:01:49 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 35|app: 0|req: 10/20] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:03:06 2023] GET /auth => generated 4 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 11/21] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:03:06 2023] GET /auth => generated 4 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 11/22] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:03:19 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 35|app: 0|req: 12/23] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:04:36 2023] GET /auth => generated 4 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 12/24] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:04:36 2023] GET /auth => generated 4 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /02a93db2ef7fd8acfc3f66eb70fd037a/genome_build.json
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 172.21.0.1
+X-Forwarded-For: 172.21.0.1
+Authorization: Bearer AgKWMJmvvgjw1vzNllrYG5vP19PdrO31jQOnNjMzwownrB2nzbueC4VkWpygvmnWE7GnBrY4WbQPpYfD8Mdj2cyPoyo
+Connection: close
+User-Agent: PostmanRuntime/7.30.0
+Accept: */*
+Postman-Token: ecab6931-b1ef-42cb-9eb6-936d7182706a
+Accept-Encoding: gzip, deflate, br
+
+
+[pid: 35|app: 0|req: 13/25] 172.21.0.1 () {50 vars in 817 bytes} [Wed Jan 18 18:04:42 2023] GET /auth => generated 4 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 14/26] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:04:49 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 13/27] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:06:06 2023] GET /auth => generated 4 bytes in 7 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 14/28] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:06:06 2023] GET /auth => generated 4 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 15/29] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:06:19 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jan 18 18:07:02 2023] ***
+compiled with version: 8.5.0 20210514 (Red Hat 8.5.0-10) on 24 August 2022 18:57:00
+os: Linux-5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022
+nodename: file-assets-auth
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 5
+current working directory: /usr/src/app
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /usr/src/app/src
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address localhost:5000 fd 3
+Python version: 3.9.7 (default, Sep 13 2021, 08:22:52)  [GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x36395ec0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 403029 bytes (393 KB) for 2 cores
+*** Operational MODE: preforking ***
+Initialized AuthHelper class successfully :)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x36395ec0 pid: 34 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34)
+spawned uWSGI worker 1 (pid: 36, cores: 1)
+spawned uWSGI worker 2 (pid: 37, cores: 1)
+Error opening log file during startup
+[Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-18-07-02.log'
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /02a93db2ef7fd8acfc3f66eb70fd037a/genome_build.json
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 172.21.0.1
+X-Forwarded-For: 172.21.0.1
+Authorization: Bearer AgKWMJmvvgjw1vzNllrYG5vP19PdrO31jQOnNjMzwownrB2nzbueC4VkWpygvmnWE7GnBrY4WbQPpYfD8Mdj2cyPoyo
+Connection: close
+User-Agent: PostmanRuntime/7.30.0
+Accept: */*
+Postman-Token: 08f0be71-81f0-4914-8b32-e93475a0a656
+Accept-Encoding: gzip, deflate, br
+
+
+token from auth header AgKWMJmvvgjw1vzNllrYG5vP19PdrO31jQOnNjMzwownrB2nzbueC4VkWpygvmnWE7GnBrY4WbQPpYfD8Mdj2cyPoyo
+Dataset ID: 02a93db2ef7fd8acfc3f66eb70fd037a
+File name: genome_build.json
+ENTITY_API_PRIVATE_IP:  https://entity-api.dev.sennetconsortium.org
+Making an HTTP request to GET https://entity-api.dev.sennetconsortium.org/entities/02a93db2ef7fd8acfc3f66eb70fd037a at time Wed Jan 18 18:07:22 2023
+[2023-01-18 18:07:22] DEBUG in connectionpool: Starting new HTTPS connection (1): entity-api.dev.sennetconsortium.org:443
+/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1045: InsecureRequestWarning: Unverified HTTPS request is being made to host 'entity-api.dev.sennetconsortium.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+[2023-01-18 18:07:23] DEBUG in connectionpool: https://entity-api.dev.sennetconsortium.org:443 "GET /entities/02a93db2ef7fd8acfc3f66eb70fd037a HTTP/1.1" 200 1916
+ENTITY RESPONSE
+{    "contains_human_genetic_sequences": false,    "created_by_user_displayname": "Max Sibilla",    "created_by_user_email": "MAS400@pitt.edu",    "created_by_user_sub": "1b8f1792-0ee8-473f-9249-2dc5aa4ce19c",    "created_timestamp": 1673462826885,    "data_access_level": "consortium",    "data_types": [        "snRNA-seq"    ],    "description": "Vitessce Derived Dataset",    "direct_ancestors": [        {            "contains_human_genetic_sequences": true,            "created_by_user_displayname": "Max Sibilla",            "created_by_user_email": "MAS400@pitt.edu",            "created_by_user_sub": "1b8f1792-0ee8-473f-9249-2dc5aa4ce19c",            "created_timestamp": 1673459912313,            "data_access_level": "consortium",            "data_types": [                "snRNA-seq"            ],            "description": "Vitessce Primary Dataset",            "entity_type": "Dataset",            "group_name": "CODCC Testing Group",            "group_uuid": "57192604-18e0-11ed-b79b-972795fc9504",            "lab_dataset_id": "Vitessce Primary Dataset",            "last_modified_timestamp": 1673537769111,            "last_modified_user_displayname": "Max Sibilla",            "last_modified_user_email": "MAS400@pitt.edu",            "last_modified_user_sub": "1b8f1792-0ee8-473f-9249-2dc5aa4ce19c",            "local_directory_rel_path": "consortium/CODCC Testing Group/3d738d21634af3f86a2328670d5f6e4d/",            "sennet_id": "SNT883.WLBQ.344",            "status": "New",            "title": "snRNA-seq data from the large intestine of a source of unknown age, race and sex",            "uuid": "3d738d21634af3f86a2328670d5f6e4d"        }    ],    "entity_type": "Dataset",    "group_name": "CODCC Testing Group",    "group_uuid": "57192604-18e0-11ed-b79b-972795fc9504",    "lab_dataset_id": "Vitessce Derived Dataset",    "last_modified_timestamp": 1673636253615,    "last_modified_user_displayname": "Max Sibilla",    "last_modified_user_email": "MAS400@pitt.edu",    "last_modified_user_sub": "1b8f1792-0ee8-473f-9249-2dc5aa4ce19c",    "local_directory_rel_path": "consortium/CODCC Testing Group/02a93db2ef7fd8acfc3f66eb70fd037a/",    "sennet_id": "SNT753.WGBZ.884",    "status": "New",    "title": "snRNA-seq data from the large intestine of a source of unknown age, race and sex",    "uuid": "02a93db2ef7fd8acfc3f66eb70fd037a"}
+Data access level of dataset_id: 02a93db2ef7fd8acfc3f66eb70fd037a is consortium
+HAS READ PRIVS RESPONSE
+[2023-01-18 18:07:23] DEBUG in connectionpool: Starting new HTTPS connection (1): auth.globus.org:443
+[2023-01-18 18:07:24] DEBUG in connectionpool: https://auth.globus.org:443 "POST /v2/oauth2/token/introspect HTTP/1.1" 200 546
+[2023-01-18 18:07:24] DEBUG in connectionpool: Starting new HTTPS connection (1): groups.api.globus.org:443
+[2023-01-18 18:07:25] DEBUG in connectionpool: https://groups.api.globus.org:443 "GET /v2/groups/my_groups HTTP/1.1" 200 None
+Token has read or write privs
+[pid: 36|app: 0|req: 1/1] 172.21.0.1 () {50 vars in 817 bytes} [Wed Jan 18 18:07:22 2023] GET /auth => generated 65 bytes in 3229 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 2/2] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:07:36 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 3/3] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:07:36 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 4/4] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:08:32 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 5/5] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:09:06 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 6/6] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:09:06 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 7/7] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:10:02 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 8/8] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:10:36 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 9/9] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:10:36 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 10/10] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:11:32 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+Error opening log file during startup
+[Errno 2] No such file or directory: '/usr/src/app/src/log/assets-auth-18-01-2023-18-07-02.log'
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 1/11] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:12:07 2023] GET /auth => generated 65 bytes in 13 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 2/12] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:12:07 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 37|app: 0|req: 3/13] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:13:02 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 4/14] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:13:37 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 5/15] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:13:37 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 37|app: 0|req: 6/16] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:14:32 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 7/17] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:15:07 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 8/18] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:15:07 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 11/19] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:16:03 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 12/20] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:16:37 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 13/21] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:16:37 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 14/22] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:17:33 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 9/23] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:18:07 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 10/24] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:18:07 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 15/25] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:19:03 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 16/26] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:19:37 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 11/27] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:19:37 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 17/28] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:20:33 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 18/29] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:21:07 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 19/30] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:21:07 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 20/31] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:22:03 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 21/32] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:22:37 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 12/33] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:22:37 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 37|app: 0|req: 13/34] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:23:33 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 14/35] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:24:08 2023] GET /auth => generated 65 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 22/36] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:24:08 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 23/37] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:25:03 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 24/38] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:25:38 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 15/39] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:25:38 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 37|app: 0|req: 16/40] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:26:33 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 25/41] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:27:08 2023] GET /auth => generated 65 bytes in 5 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 17/42] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:27:08 2023] GET /auth => generated 65 bytes in 14 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 26/43] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:28:03 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 27/44] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:28:38 2023] GET /auth => generated 65 bytes in 7 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 28/45] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:28:38 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 29/46] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:29:34 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 36|app: 0|req: 30/47] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:30:08 2023] GET /auth => generated 65 bytes in 7 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+AUTH STARTING
+HEADERS
+X-Original-Request-Method: GET
+X-Original-Uri: /
+Host: 10.4.69.217:8080
+X-Forwarded-Proto: http
+X-Real-Ip: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+User-Agent: curl/7.74.0
+Accept: */*
+
+
+[pid: 37|app: 0|req: 18/48] 172.21.0.1 () {44 vars in 536 bytes} [Wed Jan 18 18:30:08 2023] GET /auth => generated 65 bytes in 4 msecs (HTTP/1.0 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 31/49] 127.0.0.1 () {32 vars in 350 bytes} [Wed Jan 18 18:31:04 2023] GET / => generated 34 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
