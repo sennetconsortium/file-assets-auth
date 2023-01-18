@@ -11,8 +11,8 @@ services:
     init: true
     restart: always
     environment:
-      - HOST_GID=${HOST_GID:-1001}
-      - HOST_UID=${HOST_UID:-1001}
+      - HOST_GID=${HOST_GID:-1002}
+      - HOST_UID=${HOST_UID:-1002}
     ports:
       - "8080:8080"
 #      - "443:4430"
