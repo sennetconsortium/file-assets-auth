@@ -12,3 +12,4 @@ First you need to copy some data from DEV to your local and then create symlinks
 ```
 ./docker-development up local
 ```
+![](../../Downloads/Assets service.png)
