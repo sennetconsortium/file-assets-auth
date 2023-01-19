@@ -44,7 +44,7 @@ RUN yum install -y yum-utils && \
 # The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime. 
 # EXPOSE does not make the ports of the container accessible to the host.
 # Here 5000 is for the uwsgi socket, 8080 for nginx
-EXPOSE 5000 8080
+EXPOSE 5000 8080 8081
 
 # Set an entrypoint
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh

@@ -103,8 +103,6 @@ def auth():
         # Remove the `Bearer ` part of the token
         token = bearer_token[7:]
         print('token from auth header', token)
-    else:
-        pass
 
     dataset_id, file_name = path_list[0].split('/')
     print('Dataset ID: ' + dataset_id)
