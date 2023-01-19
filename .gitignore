@@ -1,3 +1,7 @@
 venv
 src/instance/app.cfg
 .idea
+log/nginx_access_assets-server.log
+log/nginx_access_auth-server.log
+log/nginx_error_assets-server.log
+log/nginx_error_auth-server.log
