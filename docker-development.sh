@@ -21,16 +21,16 @@ if [ "$arg" == "up" ]; then
   fi
 elif [ "$arg" == "build" ]; then
   echo "===== BUILDING IMAGE ====="
-  docker build -t file-assets-auth .
+  docker build -t file-assets .
 elif [ "$arg" == "down" ]; then
   echo "===== DOWN ====="
   docker-compose down
 elif [ "$arg" == "bash" ]; then
   echo "===== STARTING BASH IN CONTAINER ====="
-  docker exec -it file-assets-auth bash
+  docker exec -it file-assets bash
 elif [ "$arg" == "logs" ]; then
   echo "===== GETTING DOCKER LOGS ====="
-  docker logs -f file-assets-auth
+  docker logs -f file-assets
 else
   echo "Invalid argument specified ($1)"
 fi
