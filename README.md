@@ -1,4 +1,4 @@
-# file-assets-auth
+# Assets service
 Authentication and authorization for the file-assets service
 
 First you need to copy some data from DEV to your local and then create symlinks.
@@ -12,4 +12,4 @@ First you need to copy some data from DEV to your local and then create symlinks
 ```
 ./docker-development up local
 ```
-![](../../Downloads/Assets service.png)
+![assets-service](docs/assets-service.png)
