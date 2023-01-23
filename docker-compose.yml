@@ -14,9 +14,7 @@ services:
       - HOST_GID=${HOST_GID:-1002}
       - HOST_UID=${HOST_UID:-1002}
     ports:
-      - "8080:8080"
       - "8081:8081"
-#      - "443:4430"
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080"]
       interval: 1m30s
