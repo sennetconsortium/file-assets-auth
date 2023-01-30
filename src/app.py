@@ -104,7 +104,7 @@ def auth():
         token = bearer_token[7:]
         print('token from auth header', token)
 
-    dataset_id, file_name = path_list[0].split('/')
+    dataset_id, file_name = path_list[0].split('/', maxsplit=1)
     print('Dataset ID: ' + dataset_id)
     print('File name: ' + file_name)
 
