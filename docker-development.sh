@@ -8,7 +8,7 @@ arg=$1
 if [ "$arg" == "up" ]; then
   if [ $# -eq 1 ]
   then
-    echo "No environment supplied. Please supply one of the following (local | dev)"
+    echo "No environment supplied. Please supply one of the following (local | dev | prod)"
     exit 1
   fi
   env=$2
@@ -18,6 +18,10 @@ if [ "$arg" == "up" ]; then
   elif [ "$env" == "dev" ]; then
     echo "===== STARTING DEV DOCKER CONFIG ====="
     docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+  fi
+  elif [ "$env" == "prod" ]; then
+    echo "===== STARTING PROD DOCKER CONFIG ====="
+    docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
   fi
 elif [ "$arg" == "build" ]; then
   echo "===== BUILDING IMAGE ====="
