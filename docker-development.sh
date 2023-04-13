@@ -18,7 +18,6 @@ if [ "$arg" == "up" ]; then
   elif [ "$env" == "dev" ]; then
     echo "===== STARTING DEV DOCKER CONFIG ====="
     docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
-  fi
   elif [ "$env" == "prod" ]; then
     echo "===== STARTING PROD DOCKER CONFIG ====="
     docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
